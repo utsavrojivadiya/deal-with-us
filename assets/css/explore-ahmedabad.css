@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.search-section {
+    background-color: #433626;
+    background-size: cover;
+    height: 138px;
+    width: 1536px;
+}
+
+.search-section .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    /* Width: 1208px; */
+    /* height: 115px; */
+}
+
+.search-section .navbar .logo {
+    max-width: 223px;
+}
+
+.search-section .navbar .logo img {
+    width: 100%;
+    /* margin-top: 44px; */
+}
+
+.search-section .navbar .menubar-list .number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.search-section .navbar .menubar-list .number a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.63px;
+    letter-spacing: 0%;
+    margin-left: 10px;
+
+}
+
+.search-section .navbar .menubar-list .navbar-list ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search-section .navbar .menubar-list .navbar-list ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 0%;
+    font-family: "Roboto Flex", serif;
+    padding-left: 48.21px;
+    text-transform: uppercase;
+}
+
+.first-section .title h1 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: capitalize;
+    padding-top: 72px;
+}
+
+.first-section .content p {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    text-transform: capitalize;
+    padding-top: 12px;
+    padding-bottom: 61px;
+}
+
+.title-section .title {
+    background-color: #433626;
+    max-width: 1310px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-section .title h2 {
+    font-family:"Jacques Francois",serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.title-section .subtitle h3 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 46px;
+}
+.second-section .main{
+    padding-top: 45px;
+}
+.second-section .main .outter{
+    max-width: 1310px;
+    height: 396px;
+
+}
+
+.second-section .outter .inner{
+    display: flex;
+    
+}
+.second-section .outter .inner .left-inner{
+    width: 30%;
+    
+}
+.second-section .outter .inner .left-inner img{
+    max-width: 534px;
+    height: 394px;
+}
+.second-section .main .outter .inner .right-inner{
+    background-color: #D9D9D9;
+
+}
+.second-section .main .outter .inner .right-inner .detail{
+    display: flex;
+}
+.second-section .main .outter .inner .right-inner .detail p{
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+
+
+
+.contact-container {
+    background-color: #D9D9D9;
+}
+
+.contact-container .title h2 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 124%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 49px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 19px;
+}
+
+input,
+textarea {
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Roboto Flex", serif;
+    border: none;
+    /* outline: none; */
+    background: #fff;
+    color: #000;
+    width: 993px;
+    /* box-sizing: border-box; */
+
+}
+
+
+
+.contact-container button {
+    font-family: "Roboto Flex", serif;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    width: 329px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 124%;
+    letter-spacing: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+
+
+.last-section {
+    background-image: url('..//image/last-section/last-section-bg.png');
+    height: 477px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.last-section .container .main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last-section .container .main .outter {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    /* width: 33.33%; */
+    width: 200px;
+}
+
+
+.last-section .container .main .outter .inner .logo {
+    padding-top: 132px;
+}
+
+.last-section .container .main .outter .inner .title h1 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 140px;
+    width: 400px;
+
+}
+
+.last-section .container .main .outter .inner .address p {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.last-section .container .main .outter .inner .gmail {
+    padding: 40px 0;
+
+}
+
+.last-section .container .main .outter .inner .gmail a {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #fff;
+    text-decoration: none;
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: center;
+}
+
+.last-section .container .main .outter .inner .contect a {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #fff;
+    text-decoration: none;
+    /* padding-left: 110px; */
+    display: flex;
+    justify-content: center;
+}
+
+.last-section .container .main .outter .inner .title h5 {
+    font-family: "Roboto Flex", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 132px;
+    padding-bottom: 23px;
+}
+
+.last-section .container .main .outter .inner .photo {
+    padding-left: 45px;
+}
+
+.last-section .container .main .outter .inner .photo .icon {
+    display: flex;
+    /* padding-left: 70px; */
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 138px;
+    justify-content: space-between;
+}
+
+.last-section .container .main .outter .inner .photo .icon img {
+    /* width: 50%; */
+    width: 41.29px;
+    height: 43.75px;
+    display: flex;
+    flex-wrap: wrap;
+}
